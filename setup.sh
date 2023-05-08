@@ -6,8 +6,8 @@
 
 #mount -t ext4 /dev/sdc /data
 
-timedatectl set-timezone Canada/Eastern
+#timedatectl set-timezone Canada/Eastern
 
-#echo "Updating system..."
-#sudo apt-get update -y
-#sudo apt-get upgrade -y
+echo "Updating system..."
+sudo apt-get update -y
+sudo apt-get upgrade -y

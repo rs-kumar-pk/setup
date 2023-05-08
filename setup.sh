@@ -6,7 +6,7 @@ mkdir -p /data
 
 mount -t ext4 /dev/sdc /data
 
-timedatectl set-timezone Canada/Central
+timedatectl set-timezone Canada/Eastern
 
 echo "Updating system..."
 sudo apt-get update -y

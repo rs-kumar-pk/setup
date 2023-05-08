@@ -8,6 +8,6 @@
 
 #timedatectl set-timezone Canada/Eastern
 
-echo "Updating system..."
+#echo "Updating system..."
 sudo apt-get update -y
 sudo apt-get upgrade -y

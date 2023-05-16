@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#mkfs.ext4 /dev/sdc
+mkfs.ext4 /dev/sdc
 
-#mkdir -p /data
+mkdir -p /data
 
-#mount -t ext4 /dev/sdc /data
+mount -t ext4 /dev/sdc /data
 
-#timedatectl set-timezone Canada/Eastern
+timedatectl set-timezone Canada/Eastern
 
-#echo "Updating system..."
+echo "Updating system..."
 sudo apt-get update -y
 sudo apt-get upgrade -y

@@ -12,7 +12,7 @@ sudo su -c "echo UUID=$d /data ext4 defaults 0 0 >> /etc/fstab"
 
 sudo mount /data
 
-sudo timedatectl set-timezone Asia/Calcutta
+sudo timedatectl set-timezone Canada/Eastern
 
 sudo echo "Updating system..."
 sudo apt-get update -y

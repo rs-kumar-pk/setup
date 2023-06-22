@@ -2,15 +2,15 @@
 
 #!/bin/bash
 
-sudo mkfs.xfs /dev/sdc
+#sudo mkfs.xfs /dev/sdc
 
-d=$(blkid -s UUID -o value /dev/sdc)
+#d=$(blkid -s UUID -o value /dev/sdc)
 
-sudo mkdir /data
+#sudo mkdir /data
 
-sudo su -c "echo UUID=$d /data xfs defaults 0 0 >> /etc/fstab"
+#sudo su -c "echo UUID=$d /data xfs defaults 0 0 >> /etc/fstab"
 
-sudo mount /data
+#sudo mount /data
 
 sudo timedatectl set-timezone Canada/Eastern
 
